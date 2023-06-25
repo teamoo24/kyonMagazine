@@ -2,5 +2,12 @@
 const version = 2 + 1;
 </script>
 <template>
-  <div>Hello</div>
+  <div class="hello">Hello Nuxt {{ version }}!</div>
 </template>
+<style>
+.hello {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  padding: 2rem;
+}
+</style>
