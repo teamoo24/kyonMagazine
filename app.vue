@@ -2,5 +2,5 @@
 const version = 2 + 1;
 </script>
 <template>
-  <div></div>
+  <div>Hello</div>
 </template>
